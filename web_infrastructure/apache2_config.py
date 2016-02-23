@@ -46,6 +46,8 @@ EXAMPLES = '''
 - apache2_config: state=absent name=php5-fpm
 '''
 
+RETURN = '''# '''
+
 import re
 
 def _disable_config(module):
