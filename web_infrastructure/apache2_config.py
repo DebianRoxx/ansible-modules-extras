@@ -20,18 +20,18 @@ DOCUMENTATION = '''
 ---
 module: apache2_config
 version_added: 2.1
-author: "Sylvain DEROSIAUX"
+author: "Sylvain DEROSIAUX (@DebianRoxx)"
 short_description: enables/disables a configuration of the Apache2 webserver
 description:
    - Enables or disables a specified configuration of the Apache2 webserver.
 options:
    name:
      description:
-        - name of the configuration to enable/disable
+        - Name of the configuration to enable/disable.
      required: true
    state:
      description:
-        - indicate the desired state of the resource
+        - Indicate the desired state of the resource.
      choices: ['present', 'absent']
      default: present
 
