@@ -19,7 +19,7 @@
 DOCUMENTATION = '''
 ---
 module: apache2_config
-version_added: 2.1
+version_added: 2.2
 author: "Sylvain DEROSIAUX (@DebianRoxx)"
 short_description: enables/disables a configuration of the Apache2 webserver
 description:
